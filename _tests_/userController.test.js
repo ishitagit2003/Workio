@@ -18,6 +18,4 @@ describe('User API', () => {
         expect(res.statusCode).toEqual(200);
         expect(res.body).toBeInstanceOf(Array);
     });
-
-    // Add more tests for other routes
 });

@@ -2,8 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const dotenv = require('dotenv');
-const connectDB = require('./config/db');
-const userRoutes = require('./routes/userRoutes');
+const connectDB = require('./src/config/db');
+const userRoutes = require('./src/routes/userRoutes');
 
 dotenv.config();
 connectDB();

@@ -1,4 +1,4 @@
-const userDao = require('../dao/userDao');
+const userDao = require('../dao/userDao.js');
 
 const createUser = async (userData) => {
     return await userDao.createUser(userData);
