@@ -1,4 +1,4 @@
-# Worko.ai Backend API
+# Worko.ai Backend API Breakdown
 
 ## Overview
 This project implements a backend API for Worko.ai, a platform designed to help job seekers request referrals, resume reviews, interview handholding, career guidance, and mock interviews. The project is developed using Node.js and follows the MVC architecture pattern.
